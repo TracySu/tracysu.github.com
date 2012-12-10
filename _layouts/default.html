@@ -1,46 +1,53 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="{{ site.author }}" />
-    <title>{{ page.title }} | {{ site.author }}</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link href="{{ site.url }}/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-    <link rel="stylesheet" href="/media/css/style.css">
-    <link rel="stylesheet" href="/media/css/highlight.css">
-    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
-  </head>
-  <body>
-    <div id="container">
-      <div id="main" role="main">
-        <header>
-        <h1>{{ page.title }}</h1>
-        </header>
-        <nav>
-        <span><a title="home page" class="" href="{{ site.url }}/">home</a></span>
-        <span><a title="about" class="" href="{{ site.url }}/about/">about</a></span>
-        <span><a title="publication" class="" href="{{ site.url }}/publication/">publication</a></span>
-        <span><a title="guestbook" class="" href="{{ site.url }}/guestbook/">guestbook</a></span>
-        <span><a title="vitae" class="" href="{{ site.url }}/vitae/">vitae</a></span>
-        <span><a title="categories" class="" href="{{ site.url }}/categories/">categories</a></span>
-        <span><a title="tags" class="" href="{{ site.url }}/tags/">tags</a></span>
-        <span><a title="links" class="" href="{{ site.url }}/links/">links</a></span>
-        <span><a title="subscribe by RSS" class="" href="{{ site.url }}/feed/">subscribe</a></span>
-        </nav>
-        <article class="content">
-        {{ content }}
-        </article>
-      </div>
-    </div>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-1988641-2']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </body>
+<html dir="ltr" lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+		<meta name="description" content="signifox 的个人博客,不定期感慨或吐槽。" />
+		<meta name="keywords" content="signifox" />
+		<meta name="author" content="signifox" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="stylesheet" type="text/css" media="all" href="/static/css/style.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/static/css/highlight.css" />
+		<script src="/static/js/jquery.js" type="text/javascript"></script>
+		<!--[if lt IE 9]>
+		<script src="/static/js/html5.js" type="text/javascript"></script>
+		<![endif]-->
+		<meta name="generator" content="jekyll" />
+	</head>
+	<body itemscope itemtype="http://schema.org/WebPage" class="home blog lost index">
+		<section class="lost-logo fn-clear">
+		<span class="alignleft">
+  			<img class="violet-logo" src="/static/images/logo.jpg"/>
+			<hgroup class="violet-site">	
+        		<h1><a href="/" ret="bootmark">shawhu</a><span>.org</span></h1>
+        		<h2>To be or not to be , it is a question.</h2>
+     		</hgroup><!-- //violet-site -->	
+		</span>
+		<span class="alignright">
+  			<span><a href="/" title="首页" ret="bootmark"><i class="icon-home"></i>首页</a></span>
+  			<span><a href="/archives.html" ret="bootmark">归档</a></span>
+  			<span><a href="/categories.html" ret="bootmark">分类</a></span>
+  			<span><a href="/tags.html" ret="bootmark">标签</a></span>
+  			<span><a href="/about.html" ret="bootmark">关于</a></span>   
+		</span>
+		</section>
+
+		{{ content }}
+
+		<footer class="lost-footer">
+		<div>
+    		<hr/>
+    		<span class="alignleft">
+       		<a href="/" title="{{ site.title }}"><i class="icon-home"></i>首页</a> &brvbar; 
+      	 	<a href="/atom.xml"><i class="icon-rss"></i>RSS 订阅</a> &brvbar; 
+    		</span>
+    		<span class="alignright">Copyright &copy <a href="/about.html">signifox </a>| Powered by <a href="https://github.com/mojombo/jekyll">Jekyll </span>
+		</div>
+		</footer>
+		<script src="/static/js/jquery.scrollTo.js" type="text/javascript"></script>
+		<script src="/static/js/Lost.js" type="text/javascript"></script>
+		{% include google_analysis.md %}
+	</body>
 </html>
