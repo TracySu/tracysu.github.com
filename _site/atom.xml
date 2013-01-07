@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Mr Su's Rules'</title>
+ <link href="http://username.github.com/atom.xml" rel="self"/>
+ <link href="http://username.github.com"/>
+ <updated>2012-12-30T00:10:01+00:00</updated>
+ <id>http://username.github.com</id>
+ <author>
+   <name>Tracy Su</name>
+   <email>tracysu1860@me.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>new blog</title>
+   <link href="http://username.github.com/2012/12/30/new-blog"/>
+   <updated>2012-12-30T00:00:00+00:00</updated>
+   <id>http://username.github.com/2012/12/30/new-blog</id>
+   <content type="html">&lt;h3 id='hello_world'&gt;一.Hello World&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;域名从Godaddy购买， 托管在DNSPod上。&lt;/li&gt;
+
+&lt;li&gt;空间采用Jekyll框架，托管在OpenShift上。&lt;/li&gt;
+
+&lt;li&gt;文章使用MarkDown编写，使用私有Git发布。&lt;/li&gt;
+
+&lt;li&gt;服务器使用Nginx程序， 使用SSH管理。&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ 
+</feed>
