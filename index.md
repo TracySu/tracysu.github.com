@@ -6,9 +6,9 @@ tagline:
 {% include JB/setup %}
 
 
-The site is not finished yet, will be finished after my exams
+The site is not finished yet, will be updated after my exams
 
-Here are my articles finished ages ago, will put something new soon...
+Here are my articles written ages ago, will put something new soon...
 
 <ul class="posts">
   {% for post in site.posts %}
