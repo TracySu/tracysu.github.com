@@ -8,4 +8,5 @@ http://username.github.com/pages.html
 http://username.github.com/sitemap.txt
 http://username.github.com/tags.html
 
-http://username.github.com/2012/12/30/new-blog
+http://username.github.com/2013/01/08/2--
+http://username.github.com/2013/01/08/1----
