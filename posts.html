@@ -1,0 +1,10 @@
+---
+layout: base
+---
+
+<ul class="unstyled posts">
+    {% for post in site.posts %}
+        <li><a class="posts-title" href="{{ post.url }}">{{ post.title }}</a> &mdash; <span class="posts-date">{{ post.date | date: "%B %-d, %Y" }}</span></li>
+        <div class="visible-phone"></br></div>
+    {% endfor %}
+</li>

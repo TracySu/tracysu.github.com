@@ -1,0 +1,17 @@
+/* Pretty printing styles. Used with prettify.js. */
+/* Modified for dylanv.org. Colors based on the Tomorrow Night theme. */
+
+/* SPAN elements with the classes below are added by prettyprint. */
+.pln { color: #FFFFFF }  /* plain text */
+.str { color: #B5DB68 }  /* string content */
+.kwd { color: #B294BB }  /* a keyword */
+.com { color: #969896 }  /* a comment */
+.typ { color: #F0C674 }  /* a type name */
+.lit { color: #B5BD68 }  /* a literal value */
+/* punctuation, lisp open bracket, lisp close bracket */
+.pun, .opn, .clo { color: #FFFFFF }
+.tag { color: #CC6666 }  /* a markup tag name */
+.atn { color: #CC6666 }  /* a markup attribute name */
+.atv { color: #B5BD68 }  /* a markup attribute value */
+.dec, .var { color: #FFFFFF }  /* a declaration; a variable name */
+.fun { color: #81A2BE }  /* a function name */

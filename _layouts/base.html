@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}Mr Su's Rules</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Tracy Su{% endif %}"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:url" content="http://tracysu.me{{ page.url }}"/>
+        <meta property="og:site_name" content="Tracy Su"/>
+        <meta property="fb:admins" content="1057560040"/>
+        <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/css/bootstrap-responsive.min.css"/>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Vollkorn"/>
+        <link rel="stylesheet" href="/css/prettify.css"/>
+        <link rel="stylesheet" href="/css/style.css"/>
+        <link rel="shortcut icon" href="/favicon.ico"/>
+        <link rel="alternate" href="/atom.xml" type="application/atom+xml" title="Tracy Su"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="span8 offset2">
+                    <div class="row">
+                        <div class="span4">
+                            <h1 id="heading"><a href="/">Tracy Su</a></h1>
+                        </div>
+                        <div class="span4">
+                            <ul id="nav" class="inline pull-right">
+                                <li id="nav-about" class="dropdown" data-page="about"><a href="javascript:void(0)">About</a></li>
+                                <li id="nav-posts" data-page="posts"><a href="/posts">Posts</a></li>
+                                <li id="nav-elsewhere" class="dropdown" data-page="elsewhere"><a href="javascript:void(0)">Elsewhere</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="about" class="dropdown">
+                        <div class="row spacer"></div>
+                        <div class="row">
+                            <div class="span8">
+                                <p>I'm a final year student at the Uni of Liverpool, this is my blog</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="elsewhere" class="dropdown">
+                        <div class="row spacer"></div>
+                        <div class="row">
+                            <div class="span1"><a href="https://twitter.com/tracysu" target="_blank"><img src="/images/elsewhere/twitter.png"/></a></div>
+                            <div class="span1"><a href="https://github.com/tracysu" target="_blank"><img src="/images/elsewhere/github.png"/></a></div>
+                            <div class="span1"><a href="http://www.facebook.com/tracy.y.s.3" target="_blank"><img src="/images/elsewhere/facebook.png"/></a></div>
+                            <div class="span1"><a href="mailto:tracysu1860@me.com" target="_blank"><img src="/images/elsewhere/email.png"/></a></div>
+                        </div>
+                    </div>
+                    <div class="row spacer"></div>
+                    <div class="row">
+                        <div class="span8">
+                            {{ content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <!--
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        -->
+        <script src="/js/prettify.js"></script>
+        <script>
+            // Hacker News button
+            // (function(d, t) {
+            //     var g = d.createElement(t),
+            //         s = d.getElementsByTagName(t)[0];
+            //     g.src = '//hnbutton.appspot.com/static/hn.min.js';
+            //     s.parentNode.insertBefore(g, s);
+            // }(document, 'script'));
+
+
+            // Google Analytics
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-10535194-5']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+
+            $(function () {
+
+                // Color the active navigation link
+                var page = window.location.pathname.split("/")[1];
+                $("#nav li[data-page='" + page + "']").addClass("nav-active");
+
+                // Enable the dropdown behavior
+                $("li.dropdown").click(function () {
+                    var $thisLi = $(this);
+                    var $thisDiv = $("#" + $thisLi.attr("data-page"));
+                    if ($thisLi.hasClass("nav-active")) {
+                        $thisLi.removeClass("nav-active");
+                        $thisDiv.slideUp();
+                    } else {
+                        $("li.dropdown").not($thisLi).removeClass("nav-active");
+                        $("div.dropdown").not($thisDiv).slideUp(function () {
+                            $thisLi.addClass("nav-active");
+                            $thisDiv.slideDown();
+                            _gaq.push(["_trackPageview", "/" + $thisLi.attr("data-page")]);
+                        });
+                    }
+                });
+
+                // Syntax-highlight all <pre> blocks
+                $("pre").addClass("prettyprint");
+                prettyPrint();
+
+            });
+        </script>
+    </body>
+</html>

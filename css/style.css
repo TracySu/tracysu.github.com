@@ -1,0 +1,133 @@
+body {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Vollkorn", serif;
+}
+
+#heading {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#nav {
+    margin-top: 24px;
+}
+
+#nav li a {
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.nav-active a {
+    color: #333;
+}
+
+.dropdown p {
+    margin-bottom: 0px;
+}
+
+#about, #elsewhere {
+    display: none;
+}
+
+#elsewhere img {
+    display: block;
+    margin: 0px auto;
+}
+
+.spacer {
+    margin: 10px 0px;
+}
+
+.post-title {
+
+}
+
+.post-info li {
+    vertical-align: bottom;
+}
+
+.post-info li:first-child {
+    padding-left: 0px;
+}
+
+.post-date {
+    font-size: 20px;
+}
+
+.share-twitter {
+    margin-bottom: -6px;
+    margin-left: 4px;
+    margin-right: -28px;
+}
+
+.share-hn {
+    margin-bottom: -7px;
+}
+
+#more-posts {
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.content p, .content li {
+    font-size: 16px;
+    line-height: 26px;
+    text-rendering: optimizeLegibility;
+}
+
+.content p {
+    padding-top: 12px;
+}
+
+.content p img {
+    display: block;
+    margin: 0px auto;
+}
+
+a {
+    color: #C82829;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+#about p, .posts li {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+a.posts-title:visited {
+    color: #333;
+}
+
+.posts-date {
+    font-size: 16px;
+}
+
+code, pre {
+    font-family: "Menlo", "Consolas", monospace;
+    border: none;
+    color: #FFF;
+    -webkit-font-smoothing: antialiased;
+}
+
+code {
+    background-color: #333;
+}
+
+pre {
+    background-color: #1D1F21;
+}
+
+pre.prettyprint {
+    margin-bottom: inherit;
+}
+
+pre, pre code {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
