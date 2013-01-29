@@ -2,10 +2,10 @@
 <ul class="inline post-info">
     <li class="post-date">{{ post.date | date: "%B %-d, %Y" }}</li>
     <div class="visible-phone"></br></div>
-    <!--
+    
     <li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ post.title }}" data-url="http://dylanv.org{{ post.url }}" data-via="dylanvee" data-related="dylanvee">Share on Twitter</a></li>
     <li class="share-hn"><a href="http://news.ycombinator.com/submit" class="hn-share-button" data-title="{{ post.title }}" data-url="http://dylanv.org{{ post.url }}">Vote on HN</a></li>
-    -->
+    
 </ul>
 <div class="content instapaper_body">{{ post.content | markdownify }}</div>
 <div class="row spacer"></div>
