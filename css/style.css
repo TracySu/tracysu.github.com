@@ -3,6 +3,7 @@ body {
     margin-bottom: 40px;
     font-family: "Vollkorn", serif; 
     background-color: #d3d3d3;
+    background-image: url(/images/backgroud.png);
 }
 
 #heading {
