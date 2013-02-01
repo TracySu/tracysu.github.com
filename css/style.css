@@ -2,13 +2,13 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
     font-family: "Vollkorn", serif;
+    background-color: #ffffff;
     background: url(/images/background.png) repeat left top;
-
 }
 
 #heading {
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 400;   
 }
 
 #nav {
