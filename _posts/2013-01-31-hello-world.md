@@ -14,6 +14,7 @@ titile: 终于没有借口了
 ***如何搭建这样的博客***
 ***
 1. 首先要有github账号，根据[Jekyll-Bootstrap](http://jekyllbootstrap.com/)的教程一步步进行即可。
+	
 	注意：
 	建好仓库后，使用命令：`$ git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git` 时 `USERNAME` 大小写敏感，不然不能完成命令。
 
