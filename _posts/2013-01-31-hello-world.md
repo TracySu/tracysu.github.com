@@ -14,15 +14,14 @@ titile: 终于没有借口了
 **如何搭建这样的博客**
 ***
 1. 首先要有github账号，根据[Jekyll-Bootstrap](http://jekyllbootstrap.com/)的教程一步步进行即可。
-
-*注意：	
-	* 建好仓库后，使用命令：
-		`$ git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git` 时`USERNAME`大小写敏感，不然不能完成命令。
-	
-	* mac下部署jekyll,确保先安装好：xcode, git, rvm, ruby。
-	  ruby要升级到1.9.2以上的版本才能通过gem安装jekyll。我升级ruby的时候用了各种方法，最后发现最快最简便的方式是直接安装集成好的软件[jewelrybox](http://jewelrybox.unfiniti.com/). 	  
+	*注意：	
+		* 建好仓库后，使用命令：`$ git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git` 时`USERNAME`大小写敏感，不然不能完成命令。
+		
+		* mac下部署jekyll,确保先安装好：xcode, git, rvm, ruby。
+	  	ruby要升级到1.9.2以上的版本才能通过gem安装jekyll。我升级ruby的时候用了各种方法，最后发现最快最简便的方式是直接安装集成好的软件[jewelrybox](http://jewelrybox.unfiniti.com/). 	  
 
 2. tutorial步骤全部完成，yoohoooo~立马呈现完美博客，接下来自己调整就好。
+
 3. 最cool的地方是，markdown写作能完全释放排版的压力，语法非常简单,真正关注写作本身。vim，sublime text, textmate各种编辑器都有markdown的插件，真正实现*所见即所得*。
 
 4. 即使没有网也能完成线下写作，等有网的时候push到github就好，非常方便。
