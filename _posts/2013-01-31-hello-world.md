@@ -1,6 +1,6 @@
 ---
 layout: post
-titile: “终于没有借口了”
+title: “终于没有借口了”
 ---
 
 **Hello world**
