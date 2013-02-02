@@ -17,7 +17,7 @@ titile: 终于没有借口了
 	*注意：
 	
 	* 建好仓库后，使用命令：<br>
-	`$ git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git` 
+	` $ git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git ` 
 	时 `USERNAME`大小写敏感，不然不能完成命令。
 	<br>
 	* mac下部署jekyll,确保先安装好：xcode, git, rvm, ruby。
