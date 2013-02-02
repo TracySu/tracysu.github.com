@@ -20,7 +20,7 @@ title: "终于没有借口了"
 
 - tutorial步骤全部完成，yoohoooo~立马呈现完美博客，接下来自己调整就好。
 
-- 最cool的地方是，markdown写作能完全释放排版的压力，语法非常简单,真正关注写作本身。vim，sublime text, textmate各种编辑器都有markdown的插件，真正实现**所见即所得。**
+- 最cool的地方是，markdown写作能完全释放排版的压力，语法非常简单,真正关注写作本身。vim，sublime text, textmate各种编辑器都有markdown的插件，真正实现**“所见即所得”。**
 
 - 即使没有网也能完成线下写作，等有网的时候push到github就好，非常方便。
 
