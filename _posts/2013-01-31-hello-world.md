@@ -27,8 +27,8 @@ title: "终于没有借口了"
 
 **参考** --------------------------
 
-+ [git - 简易指南](http://rogerdudler.github.com/git-guide/index.zh.html)
-+ [Markdown写作浅谈](http://www.yangzhiping.com/tech/r-markdown-knitr.html) 
+* [git - 简易指南](http://rogerdudler.github.com/git-guide/index.zh.html)
+* [Markdown写作浅谈](http://www.yangzhiping.com/tech/r-markdown-knitr.html) 
 
 
 
