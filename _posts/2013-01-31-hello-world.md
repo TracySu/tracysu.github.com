@@ -24,7 +24,8 @@ title: "终于没有借口了"
 
 - 即使没有网也能完成线下写作，等有网的时候push到github就好，非常方便。
 
-# 参考 --------------------------
+
+**参考** --------------------------
 
 + [git - 简易指南](http://rogerdudler.github.com/git-guide/index.zh.html)
 + [Markdown写作浅谈](http://www.yangzhiping.com/tech/r-markdown-knitr.html) 
