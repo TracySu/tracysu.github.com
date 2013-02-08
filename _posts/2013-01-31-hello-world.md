@@ -10,7 +10,7 @@ title: "终于没有借口了"
 
  *人生需要整合，感情要常联络。* 1年前我开始用evernote，充分体会到记录，整理信息的重要性。加之时常反社交网络的情绪，让我有动力用多于140字的篇幅在这儿嬉笑怒骂，自说自话。  
 
- 10/02/2013更新：标题***Mr Su's Rules***来自英国GQ主编Dylan Jones的书名[Mr.Jones' Rules for the Modern Man](http://book.douban.com/subject/2253041/)，珠玉文字，绅士情怀。
+ 10/02/2013更新：标题***<b><font color="#c82829">Mr Su's Rules</font></b>*** 来自英国GQ主编Dylan Jones的书名[Mr.Jones' Rules for the Modern Man](http://book.douban.com/subject/2253041/)，珠玉文字，绅士情怀。
 <br> 
       
 **如何搭建这样的博客**
