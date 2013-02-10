@@ -31,4 +31,7 @@ title: "纵横英国记2--[搭车|徒步]"
 
 <img src="/images/posts/all-the-way-north.jpg" />
 
+照片集：http://www.flickr.com/photos/tracy_su/sets/72157632739528998/
+
+
 
