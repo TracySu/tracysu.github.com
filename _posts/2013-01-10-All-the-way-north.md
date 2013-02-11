@@ -30,3 +30,6 @@ title: "纵横英国记1--[农场|义工]"
 
 感谢Kate和Jamie，来年见，愿花园草长莺飞，自成风景！
 
+照片集：http://www.flickr.com/photos/tracy_su/sets/72157632739528998/
+
+
