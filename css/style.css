@@ -113,6 +113,29 @@ a.posts-title:visited {
 /*
   CSS extraction & comments via http://thoughtsincomputation.com/posts/coderay-stylesheet-classes
 */
-code {margin: 0 2px; padding: 0px 5px; background-color:#FFDEAD;border-radius: 3px;}
-pre code, .highlight code{margin: 0; padding: 0; background-color: transparent; border: none;}
+
+code, pre {
+    font-family: "Menlo", "Consolas", monospace;
+    border: none;
+    color: #FFF;
+    -webkit-font-smoothing: antialiased;
+}
+
+code {
+    background-color: #999999;
+}
+
+pre {
+    background-color: #a4a5a6;
+}
+
+pre.prettyprint {
+    margin-bottom: inherit;
+}
+
+pre, pre code {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
 
