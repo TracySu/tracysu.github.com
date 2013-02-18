@@ -113,21 +113,8 @@ a.posts-title:visited {
 /*
   CSS extraction & comments via http://thoughtsincomputation.com/posts/coderay-stylesheet-classes
 */
-
-code, pre {
-    font-family: "Menlo", "Consolas", monospace;
-    border: none;
-    color: #FFF;
-    -webkit-font-smoothing: antialiased;
-}
-
-code {
-    background-color: #333;
-}
-
-pre {
-    background-color: #1D1F21;
-}
+pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
+code{background-color:#F7F7F7;}
 
 pre.prettyprint {
     margin-bottom: inherit;
