@@ -109,24 +109,19 @@ a.posts-title:visited {
 }
 
 
-
-/*
-  CSS extraction & comments via http://thoughtsincomputation.com/posts/coderay-stylesheet-classes
-*/
-
 code, pre {
     font-family: "Menlo", "Consolas", monospace;
     border: none;
-    color: #FFF;
+    color: #4a4a4a;
     -webkit-font-smoothing: antialiased;
 }
 
 code {
-    background-color: #474747;
+    background-color: #F7F7F7;
 }
 
 pre {
-    background-color: #474747;
+    background-color: #F7F7F7;
 }
 
 pre.prettyprint {
