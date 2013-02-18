@@ -112,16 +112,16 @@ a.posts-title:visited {
 code, pre {
     font-family: "Menlo", "Consolas", monospace;
     border: none;
-    color: #0a0a0a;
+    color: #FFF;
     -webkit-font-smoothing: antialiased;
 }
 
 code {
-    background-color: #F7F7F7;
+    background-color: #5b5b5b;
 }
 
 pre {
-    background-color: #F7F7F7;
+    background-color: #5b5b5b;
 }
 
 pre.prettyprint {
@@ -133,4 +133,5 @@ pre, pre code {
     word-wrap: normal;
     white-space: pre;
 }
+
 
