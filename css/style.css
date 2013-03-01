@@ -3,8 +3,8 @@ body {
     margin-bottom: 40px;
     font-family: "Vollkorn", serif; 
 
-    /*background-image: url(/images/backgroud.png);*/
-    background-color: #E8E8E8;
+    background-image: url(/images/backgroud.png);
+    /*background-color: #E8E8E8;*/
 }
 
 #heading {
