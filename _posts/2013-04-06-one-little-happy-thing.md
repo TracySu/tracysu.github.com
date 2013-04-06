@@ -4,7 +4,7 @@ title: "One little happy thing"
 ---
 
 
-We met around 7pm in an officer at Taksim square, Istanbul. Soon she found a seat next to me, and her yoga mat attracted my attention. I then asked if she's go camping. She said no, just do yoga anywhere. I pondered what a passion! 
+We met around 7pm in an office at Taksim square, Istanbul. Soon she found a seat next to me, and her yoga mat attracted my attention. I then asked if she's go camping. She said no, just do yoga anywhere. I pondered what a passion! 
 
 Then we naturally started chatting. She's German, teaching in an international school in Switzerland now. Must has been travelling a lot, judged from her dress and knapsack, shabby but compact. 
 
