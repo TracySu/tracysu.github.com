@@ -19,8 +19,9 @@ However, sadily, we had to go separte ways, she's going to Kony where Rumi, her 
 We were like old bosom friends meet again, this is the happiest thing in travelling. 
 
 
-30/3/2013 
 
+
+30/3/2013 <br>
 Goreme, Turkey
 
 
