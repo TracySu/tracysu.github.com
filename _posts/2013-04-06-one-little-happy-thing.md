@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "One little happy thing"
+title: "One Little Happy Thing"
 ---
 
 
@@ -14,7 +14,7 @@ The conversation was continuing as we were waiting the buses. We didn't want it 
 
 As a teacher, she displayed somewhat like what a teacher always does, I mean impose ideas a bit, even though how she wasn't willing to nor tried not to do so. But I didn't mind. In one time, There was a local man came to me, and tried to talk, she whispered in my ear, "He has not good energy." I asked, "How do you know?", She replied, "maybe feeling." She even predicted I will not change in 10 years as she knew me well, I would hope so but I don't know if this is good. But I have to admit it, she was right, no one else has ever fathomed, this is ture for me! Magic! 
 
-However, sadily, we had to go separte ways, she's going to Kony where Rumi, her favourite poet from, I was going to Cappadocia. I shall never forget her eyes when we about to say farewell. 
+However, sadily, we had to go separte ways, she's going to Kony where Rumi, her favourite poet from, I was going to Cappadocia. I shall never forget her eyes when we about to say goodbye. 
 
 We were just like old bosom friends meet again, this is the happiest thing in travelling. 
 
