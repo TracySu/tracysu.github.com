@@ -4,8 +4,8 @@
 /* SPAN elements with the classes below are added by prettyprint. */
 
 .pln { color: #FFFFFF }  /* plain text */
-.str { color: #B5DB68 }  /* string content */
-.kwd { color: #B294BB }  /* a keyword */
+.str { color: #262426}  /* string content */
+.kwd { color: #992319}  /* a keyword */
 .com { color: #969896 }  /* a comment */
 .typ { color: #F0C674 }  /* a type name */
 .lit { color: #B5BD68 }  /* a literal value */
