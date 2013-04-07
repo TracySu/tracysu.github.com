@@ -6,7 +6,7 @@
 .pln { color: #2a272a}  /* plain text */
 .str { color: #660908}  /* string content */
 .kwd { color: #992319}  /* a keyword */
-.com { color: #3e7272}  /* a comment */
+.com { color: #7b7d7b}  /* a comment */
 .typ { color: #F0C674 }  /* a type name */
 .lit { color: #b0b011}  /* a literal value */
 /* punctuation, lisp open bracket, lisp close bracket */
