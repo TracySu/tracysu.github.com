@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d86d3b0-a31d-4660-99ed-0e98c3d54252" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/prettify.css" afterPath="$PROJECT_DIR$/css/prettify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="tracysu.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,19 +54,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="102" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.0">
+            <state line="130" column="1" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.5996441">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prettify.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="prettify.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/prettify.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="357" selection-end="357" vertical-scroll-proportion="0.21352313">
+            <state line="8" column="33" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/prettify.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -311,16 +311,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/prettify.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="102" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.0">
+        <state line="8" column="33" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/prettify.css">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="357" selection-end="357" vertical-scroll-proportion="0.21352313">
+        <state line="130" column="1" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.5996441">
           <folding />
         </state>
       </provider>
