@@ -16,5 +16,4 @@
 .atn { color: #CC6666 }  /* a markup attribute name */
 .atv { color: #B5BD68 }  /* a markup attribute value */
 .dec, .var { color: #FFFFFF }  /* a declaration; a variable name */
-.fun { color: #516880
-}  /* a function name */
+.fun { color: #81A2BE }  /* a function name */
