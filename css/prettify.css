@@ -3,8 +3,8 @@
 
 /* SPAN elements with the classes below are added by prettyprint. */
 
-.pln { color: #660908}  /* plain text */
-.str { color: #262426}  /* string content */
+.pln { color: #2a272a}  /* plain text */
+.str { color: #660908}  /* string content */
 .kwd { color: #992319}  /* a keyword */
 .com { color: #3e7272}  /* a comment */
 .typ { color: #F0C674 }  /* a type name */
