@@ -3,10 +3,11 @@
 
 /* SPAN elements with the classes below are added by prettyprint. */
 
-.pln { color: #FFFFFF }  /* plain text */
-.str { color: #262426}  /* string content */
-.kwd { color: #992319}  /* a keyword */
-.com { color: #969896 }  /* a comment */
+.pln { color: #222222
+}  /* plain text */
+.str { color: #a71b1d}  /* string content */
+.kwd { color: #217600}  /* a keyword */
+.com { color: #547672}  /* a comment */
 .typ { color: #F0C674 }  /* a type name */
 .lit { color: #B5BD68 }  /* a literal value */
 /* punctuation, lisp open bracket, lisp close bracket */
@@ -15,4 +16,5 @@
 .atn { color: #CC6666 }  /* a markup attribute name */
 .atv { color: #B5BD68 }  /* a markup attribute value */
 .dec, .var { color: #FFFFFF }  /* a declaration; a variable name */
-.fun { color: #81A2BE }  /* a function name */
+.fun { color: #516880
+}  /* a function name */
