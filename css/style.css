@@ -114,12 +114,12 @@ a.posts-title:visited {
 code, pre {
     font-family: "Menlo", "Consolas", monospace;
     border: none;
-    color: #e6e6e6;
+    color: #2a272a;
     -webkit-font-smoothing: antialiased;
 }
 
 code {
-    background-color: #2a272a;
+    background-color: #e6e6e6;
 }
 
 pre {
