@@ -8,7 +8,7 @@
 .kwd { color: #992319}  /* a keyword */
 .com { color: #3e7272}  /* a comment */
 .typ { color: #F0C674 }  /* a type name */
-.lit { color: #B5BD68 }  /* a literal value */
+.lit { color: #b0b011}  /* a literal value */
 /* punctuation, lisp open bracket, lisp close bracket */
 .pun, .opn, .clo { color: #81b4a8}
 .tag { color: #CC6666 }  /* a markup tag name */
