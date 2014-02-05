@@ -1,0 +1,57 @@
+<h2 class="post-title instapaper_title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<ul class="inline post-info">
+    <li class="post-date">{{ post.date | date: "%B %-d, %Y" }}</li>
+    <div class="visible-phone"></br></div>
+    <!--
+    <li class="share-twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ post.title }}" data-url="http://dylanv.org{{ post.url }}" data-via="dylanvee" data-related="dylanvee">Share on Twitter</a></li>
+    -->
+</ul>
+<div class="content instapaper_body">{{ post.content | markdownify }}</div>
+
+<br>
+<hr style="border: 1px dotted #C82829;">
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38642308-1']);
+  _gaq.push(['_setDomainName', 'tracysu.me']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<!-- disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'mrsusrules'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+<div class="row spacer"></div>
+<div class="row">
+    <div class="span8">
+        <span id="copyright">&copy; {{ site.time | date: "%Y" }} Tracy Su</a></span>
+        <span id="more-posts" class="pull-right"><a href="/posts">More posts &rarr;</a></span>
+    </div>
+</div>
